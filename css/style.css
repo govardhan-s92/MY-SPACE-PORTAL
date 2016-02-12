@@ -1,0 +1,196 @@
+
+/*Font face generation*/
+@font-face {
+	font-family: "Myriad Pro";
+	src: url('fonts/MyriadPro-Regular.ttf') format('truetype'),
+		 url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Custom styles*/
+*{
+  -webkit-user-select : none !important;
+  -webkit-transform : translate3d(0,0,0) ! important;
+  -webkit-backface-visibility: hidden;
+  margin:0px;
+  padding: 0px;
+  color:rgb(0,0,0);
+  font-family: "Myriad Pro" !important;
+}
+body {
+	height: 701px;
+	max-width: 810px;
+	min-width: 493px;
+}
+header{
+	margin: 20px 0 0 55px;
+}
+body > header > h1{
+	margin-bottom: 10px;
+}
+body > header > h1 > span{
+    font-size: 23.725px;
+    color: rgb(19, 189, 206);
+    font-weight: bold;
+    line-height: 5.5;
+    text-align: center;
+    margin-right: 50px;
+    float:right;
+    vertical-align: top;
+}
+.card{
+	float: left;
+	width: 100%;
+	height: 290px;
+	background: url('../images/postBackground.png') no-repeat;
+	background-size:100%;
+	border:0 !important;
+	text-align: center;
+}
+.card > p:nth-child(1){
+	font-size: 17px;
+	font-family: Myriad Pro;
+	color: rgb(0, 58, 135);
+	font-weight: bold;
+	padding: 10px;
+	margin: 17px 15px;
+	border-radius: 30px;
+	background-color: #e2e2e4;
+	box-shadow: -1px 4px 4px #cad2d6;
+}
+.card:nth-child(1) > p:nth-child(4), .card:nth-child(1) > p:nth-child(5){
+  font-size: 13px;
+  line-height: 1.577;
+  margin:0;
+  text-align: center;
+}
+.card > img[name=card1]{
+	    margin: 0 0 35px 0;
+}
+.card > img[name=card2], .card > img[name=card3]{
+	    margin: 0 0 15px 0;
+}
+.card-text {
+  font-size: 13px;
+  font-family: Myriad Pro;
+  line-height: 1.2;
+  text-align: left;
+  margin: 0 0 6px 22px;
+}/*
+body > main > section.container-fluid.col-centered > article > div > p:nth-child(5){
+  margin-bottom:15px;
+}*/
+.card > p > b{
+	color:#226aab;
+}
+
+/*Technical issues styles*/
+body > main > section.row > p.col-md-11{
+  /*background: url('../images/textBackground.png') no-repeat;
+  background-size: 100%;*/
+  border-radius: 30px;
+  background-color: #e2e2e4;
+  box-shadow: -1px 4px 4px #cad2d6;
+  font-size: 17px;
+  color: rgb(0, 58, 135);
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  margin:  0 32px;
+      line-height: 32px;
+}
+body > main > section:nth-child(2) > p > span.col-md-4{
+  font-size: 17px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 58, 135);
+  font-weight: bold;
+  vertical-align: top;
+  line-height: 32px;
+}
+
+}
+/*body > main > section.row > p > span.col-md-7 > span{
+	margin: 0 17px 0 17px;
+}
+body > main > section.row > p > span.col-md-7 > span{
+  font-size: 15px;
+  font-family: Myriad Pro;
+  color:#000;
+  font-weight: normal;
+  float: right;
+}*/
+body > main > section.row > p > span.col-md-7 > span{
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  line-height: 1.8;
+
+}
+body > main > section.row > p > span.col-md-7 > span > a{
+	text-decoration: underline;
+	color:#000;
+}
+body > main > section:nth-child(2) > article:nth-child(1) >p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+body > main > section:nth-child(2) > article:nth-child(2) >p > img{
+	margin-right: 3px;
+}
+body > main > section:nth-child(2) > article:nth-child(2) > p > span{
+  font-size: 14px;
+  line-height: 1.929;
+  text-align: right;
+  margin-left: 15px;
+  letter-spacing: 1px;
+}
+body > main > section:nth-child(3) > article > p{
+	padding: 15px 0 0px 17px;
+	text-align: left;
+	line-height: 25px;
+}
+body > main > section:nth-child(4) > article.col-md-12.col-sm-12 > p{
+ 	 background: url('../images/text1Background.png') no-repeat;
+	background-size: 100%;
+	font-size: 17px;
+	color: rgb(0, 58, 135);
+	font-weight: bold;
+	letter-spacing: 1px;
+	vertical-align: top;
+	margin: 0px;
+	padding: 12px 0px 32px 0;
+	text-align: center;
+	line-height: 17px;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin: 0 auto !important;
+}
+body > main > section:nth-child(4) > article:nth-child(2) > img{
+	padding-bottom: 25px; 
+}
+body > main > section:nth-child(4) > article:nth-child(2){
+	margin-left: 75px; 
+}
+.relative{
+    position: relative;
+    top: -41px;
+    left: 47px;
+}
+.relative > b{
+  margin-left: 33px;
+}
+/*Media Query*/
+
+/* Small devices (mobiles, 768p below) */
+@media (min-width: @screen-xs-min) { 
+  .container {
+    max-width: 810px;
+  }
+}
+
